@@ -22,7 +22,7 @@
 
 - Fee System:
     - Implements a fee mechanism on token transfers.
-    - Fee percentage (SWAP_FEES) is set to 15%.
+    - Fee percentage (SWAP_FEES) is set to 1%.
     - Excludes certain addresses from fees, managed through the feeExcludedAddresses mapping.
     - Allows the owner to set a fee collector address (FeeCollector).
 
