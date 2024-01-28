@@ -141,6 +141,7 @@ contract Claimy is ERC20, Ownable {
     }
 
     function adjustFee(uint256 _feePercentage) external onlyOwner {
+        require(_feePercentage <= 5, "Max fee cannot exceed 5%");
         SWAP_FEES = _feePercentage;
     }
     
