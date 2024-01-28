@@ -139,6 +139,10 @@ contract Claimy is ERC20, Ownable {
     function setClaimyStaking(address _claimyStakingAddress) external onlyOwner {
        ClaimyStaking = _claimyStakingAddress;
     }
+
+    function adjustFee(uint256 _feePercentage) external onlyOwner {
+        SWAP_FEES = _feePercentage;
+    }
     
     function approve(address spender, uint256 amount) public override returns (bool) {
         _allowances[msg.sender][spender] = amount;
