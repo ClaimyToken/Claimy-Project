@@ -1,5 +1,8 @@
+
+
 <h1>Claimy ERC20 & Staking Contract</h1>
 
+![Twitter-Banner](https://github.com/ClaimyToken/Claimy-Project/assets/157929629/4c2ac2d8-ab2c-42cc-8ae0-e499a73cf623)
 
 <h2>Abstract - Claimy ERC20</h2>
 <p>
